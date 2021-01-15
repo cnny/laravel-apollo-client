@@ -1,0 +1,28 @@
+{
+  "name": "cann/laravel-apollo-client",
+  "description": "Apollo Client Of PHP Laravel Framework",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "陈问渔",
+      "email": "imcnny@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "guzzlehttp/guzzle": ">=6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cann\\Apollo\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Cann\\Apollo\\ApolloServiceProvider"
+      ]
+    }
+  }
+}
